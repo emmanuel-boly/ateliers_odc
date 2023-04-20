@@ -1,0 +1,12 @@
+{% extends 'blog/base.html' %}
+{% load bootstrap4 %}
+{% block title %}Blog - Ajout de commentaire{% endblock %}
+
+{% block content %}
+    <h1>Ajout de commentaire</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {% bootstrap_form form %}
+        <button type="submit" class="btn btn-primary">Enregistrer</button>
+    </form>
+{% endblock %}
