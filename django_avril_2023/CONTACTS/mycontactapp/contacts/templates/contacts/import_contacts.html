@@ -1,0 +1,13 @@
+{% extends 'contacts/base.html' %}
+
+{% block content %}
+<h2>Importer des contacts</h2>
+<form method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <div class="mb-3">
+      <label for="vcf_file" class="form-label">Fichier VCF</label>
+      <input type="file" class="form-control" id="vcf_file" name="vcf_file">
+    </div>
+    <button type="submit" class="btn btn-primary">Importer</button>
+</form>
+{% endblock %}
