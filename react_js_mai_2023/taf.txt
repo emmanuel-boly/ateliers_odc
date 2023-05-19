@@ -1,0 +1,4 @@
+1. Afficher la liste des taches qui n'ont pas encore été faites quand on clique sur "actives"
+2. Afficher la liste des taches qui n'ont  été faites quand on clique sur "achevées"
+3. faire en sorte que l'utilisateur puisse ajouter une tache quand il appuie sur la touche "Entrée"
+4. permettre à l'utilisateur de modifier une tache déjà enregistrée
