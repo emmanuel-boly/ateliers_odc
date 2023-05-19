@@ -1,0 +1,21 @@
+.compteur{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    margin-left: 15%;
+}
+
+button{
+    width: 30%;
+    height: 40%;
+    font-weight: 900;
+    font-size: 300%;
+}
+
+.nombre{
+    text-align: center;
+    padding: 10%;
+    font-weight: 900;
+    font-size: 300%;
+}
